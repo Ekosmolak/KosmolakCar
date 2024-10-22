@@ -1,3 +1,3 @@
 class Manufactor < ApplicationRecord
-  validates :manufactorId, :manufactor
+  validates :manufactor
 end
