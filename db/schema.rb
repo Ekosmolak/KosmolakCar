@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_10_22_090633) do
+ActiveRecord::Schema[7.2].define(version: 2024_10_22_094314) do
   create_table "inventories", force: :cascade do |t|
     t.integer "inventoryId"
     t.integer "manufactorId"
@@ -20,6 +20,14 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_22_090633) do
 
   create_table "manufactors", force: :cascade do |t|
     t.string "manufactor"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "staffs", force: :cascade do |t|
+    t.string "firstName"
+    t.string "lastName"
+    t.string "position"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
