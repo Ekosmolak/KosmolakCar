@@ -10,10 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_10_22_090212) do
+ActiveRecord::Schema[7.2].define(version: 2024_10_22_090633) do
   create_table "inventories", force: :cascade do |t|
     t.integer "inventoryId"
-    t.integer "vehicleId"
     t.integer "manufactorId"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
