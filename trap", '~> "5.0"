@@ -1,0 +1,77 @@
+[33mcommit 7495bad5a89ff68c5ea830cb50c59b2bfab8892a[m[33m ([m[1;36mHEAD -> [m[1;32mIndex[m[33m, [m[1;31morigin/Index[m[33m)[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 05:15:03 2024 -0500
+
+    added model ref to manufactor
+
+[33mcommit 61559733d05f02cbaf301762ac25408a3a427c9e[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 04:48:21 2024 -0500
+
+    added bootstrap
+
+[33mcommit 6d9527e3f34360aae22c2e8b3eb207d786c66f17[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 04:43:27 2024 -0500
+
+    added staff table
+
+[33mcommit 21fd98a8055a084a94f049d98a52ebb0d8732164[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 04:41:57 2024 -0500
+
+    removed inventory table
+
+[33mcommit 5ff8c88ed084788c21304b4e2fc020e4cd14e347[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 04:06:05 2024 -0500
+
+    removed vehicleId
+
+[33mcommit 178bd58f843a8a4972889e42334abb6fd07f1795[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 04:02:49 2024 -0500
+
+    removed manufactorId
+
+[33mcommit ade5d54445cbd02185e2a270e8b5472ee2f4993b[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 01:57:00 2024 -0500
+
+    adjusted associations
+
+[33mcommit c7e163e7112b287e55c0bb6513b6ede961a521df[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 01:55:41 2024 -0500
+
+    Added associations
+
+[33mcommit 4868551977e5a4f3cfebde4b1574c067ef3dfbe7[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Tue Oct 22 00:22:26 2024 -0500
+
+    Emptied Database
+
+[33mcommit 5efdd9fe618b80f3fdd25a621b245bf151f8e08a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Mon Oct 21 18:27:24 2024 -0500
+
+    Inventory Scaffold
+
+[33mcommit d67418481699b2f6d6f3eec803ebab3a30d19f3f[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Mon Oct 21 18:26:22 2024 -0500
+
+    Manufactor Scaffold
+
+[33mcommit 2292c8d0edff56e6cf130f5ea028e4ff3d4f2e8a[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Mon Oct 21 18:23:48 2024 -0500
+
+    Vehicle Scaffold
+
+[33mcommit 2720a3421b559adc59cb01d1ee51c820eea42040[m
+Author: Ekosmolak <ekosmolak@gmail.com>
+Date:   Mon Oct 21 18:12:46 2024 -0500
+
+    First commit

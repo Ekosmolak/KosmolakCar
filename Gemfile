@@ -33,7 +33,9 @@ gem "bootsnap", require: false
 
 gem "faker"
 
-gem "bootstrap", '~> 5.0'
+gem "bootstrap", "~> 5.0"
+
+gem 'dartsass-rails', '~> 0.5.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
