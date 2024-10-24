@@ -9,6 +9,21 @@
 #   end
 
 Vehicle.delete_all
-Inventory.delete_all
+Staff.delete_all
 Manufactor.delete_all
 
+dealershipPositions = ["Sales", "IT", "Reception", "Management"]
+
+20.times do
+  manufactor = Manufactor.create(manufactor: Faker::Vehicle.unique.manufactor)
+
+  staff = Staff.create(
+    firstName: Faker::Name.unique.first_name,
+    lastName: Faker::Name.unique.last_name,
+    position: rand(dealershipPositions)
+    )
+
+  manufactor.times do
+    Vehicle.create()
+  end
+end

@@ -3,10 +3,14 @@ Rails.application.routes.draw do
   resources :staffs
   resources :manufactors
   resources :vehicles
+  get "manufactors/index"
+  get "manufactors/show"
+  get "models/index"
+  get "models/show"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  get "/manufactors", to: "manufactors#index", as: :manufactorr
-  get "/manufactors/#id", to: "manufactors#show", as: :manufactorrr
+  get "manufactor", to: "manufactor#index", as: :manufactorr
+  get "manufactor/:id", to: "manufactor#show", as: :manufactorrr
 
   get "about", to: "about#index", as: :about
 
